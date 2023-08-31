@@ -1,0 +1,15 @@
+.statement{
+    padding-right: 15px;
+    padding-top: 15px;
+    font-size: 65px;
+    color: rgb(238, 242, 15);
+  }
+  
+  /* ################################## FOOD TABLE ######################################## */
+  
+  .heading1 {
+    margin-bottom: 15px;
+  }
+.main body{
+    background: url('weee.jpg');
+}

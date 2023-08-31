@@ -1,0 +1,19 @@
+<?php
+$userName =$_POST['userName'];
+$userPassword = $-POST['userPassword'];
+//connection
+$conn = new mysqli('localhost','root',"",'test');
+if($conn->connect_error){
+die('connection failed :'.$conn->connect_error);
+}
+else
+{
+$stmt = $conn->prepare(insert into lOGIN(userName,userPassword)");
+values(?,?)");
+$stmt->blind_param("ss",$username,$userpassword);
+$stmt->execute();
+echo"done";
+$stmt->close();
+$conn->close();
+
+?>

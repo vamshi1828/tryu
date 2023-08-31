@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <body>
+      <header class="header">
+        <a href="#" class="logo">FITNESS</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+          <a href="Home" class="active">HOME</a>
+          <a href="foodchart.html">FOODCHART</a>
+          <a href="calorie.html">CALORIE CALCULATOR</a>
+          <a href="bmi.html">BMI CALCULATOR</a>
+          <a href="protein.html">PROTIEN CALCULATOR</a>
+          <a href="contact.html">CONTACT</a>
+        </nav>
+      </header>
+        </div>
+      </section><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div class="mainbody">
+      <div class="changemargin" style="color: rgb(255, 187, 0);">        
+        <p id="intro"><h5>Calculate your Calories for Base Metabolic Rate by using the form below.
+           Enter your gender,age,weight and height to display your Base Metabolic Rate Calories.
+           </h5></p>
+      </div>
+      <div class="form-check">
+        <input id="female"  name="gender" onchange="calsPerDay()" class="form-check-input" type="radio" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Female
+        </label>
+      </div>
+      <div class="form-check">
+        <input id="male" name="gender" onchange="calsPerDay()" class="form-check-input" type="radio" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Male
+        </label>
+    </div><br>
+<label>Age:
+  <input id="age" type="number" oninput="calsPerDay()" value="0">
+  years
+</label><br><br>
+<label>Height:
+  <input id="height" type="number" oninput="calsPerDay()" value="0">
+  in inches (12 inches=1 foot)
+</label><br><br>
+<label>Weight:
+  <input id="weight" type="number" oninput="calsPerDay()" value="0">
+  in pounds
+</label><br><br>
+<h5 class="changemargin"><span class="badge bg-success">Base metabolic rate: <span id="totalCals" style="color: red;"></span> kcal per day</span></h5
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="//code.tidio.co/lhkzvq5umzfab1cuutdopgmhfsi2nabj.js" async></script>
+  </body>
+</html>
